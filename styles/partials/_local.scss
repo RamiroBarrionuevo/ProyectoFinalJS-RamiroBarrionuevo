@@ -1,0 +1,126 @@
+header{
+    font-size: 20px;
+    .navbar-dark {
+        --bs-navbar-color: rgb(255, 255, 255);
+        --bs-navbar-hover-color: rgba(0, 0, 0, 0.75);
+        --bs-navbar-active-color: rgb(0, 0, 0);
+        box-shadow: rgba(163, 133, 87, 0.25) 0px 30px 60px -12px inset,
+                    rgba(90, 90, 90, 0.3) 0px 18px 36px -18px inset;
+    }
+}
+.contenedor3{
+    display: grid;
+    grid-template-columns: .5fr .5fr .5fr;
+    grid-template-rows: 1fr 1fr 1fr .2.5fr;
+    grid-template-areas: 
+    "local1 local1 local1"
+    "local2 local2 local2"
+    "local3 local3 local3"
+    "local4 local4 local4";
+    row-gap: 100px;
+    .local1{
+        grid-area: local1;
+        display: flex;
+        justify-content: center;
+        
+        h1{
+            margin-top: 50px;
+            font-size: 30px;
+            color: orange;
+            
+            
+        }
+    }
+    .local2{
+        grid-area: local2;
+        display: flex;
+        justify-content: space-around;
+        .local__imagen1{
+            width: max-content;
+            height: 228px;
+            border-radius: 5px;
+        }
+        .local__imagen2{
+            width: max-content;
+            height: 228px;
+            border-radius: 5px;
+        }
+        .local__imagen3{
+            width: max-content;
+            height: 228px;
+            border-radius: 5px;
+        }
+
+        
+    }
+    .local3{
+        grid-area: local3;
+        display: flex;
+        justify-content: space-around;
+        .local__imagen4{
+            width: max-content;
+            height: 228px;
+            border-radius: 5px;
+        }
+        .local__imagen5{
+            width: max-content;
+            height: 228px;
+            border-radius: 5px;
+        }
+        .local__imagen6{
+            width: max-content;
+            height: 228px;
+            border-radius: 5px;
+        }
+
+    }
+    .local4{
+        grid-area: local4;
+        
+
+    }
+    
+}
+@mixin tamaños ($ancho, $alto){
+    width: $ancho;
+    height: $alto;
+}
+.local_imagen1{
+    @include tamaños(230px, 230px,)
+}
+.local_imagen2{
+    @include tamaños(230px, 230px)
+}
+.local_imagen3{
+    @include tamaños(230px, 230px)
+}
+.local_imagen4{
+    @include tamaños(230px, 230px)
+}
+.local_imagen5{
+    @include tamaños(230px, 230px)
+}
+.local_imagen6{
+    @include tamaños(230px, 230px)
+}
+@mixin radius ($radius){
+    border-radius: $radius;
+}
+.local_imagen1{
+    @include radius(10px)
+}
+.local_imagen2{
+    @include radius(10px)
+}
+.local_imagen3{
+    @include radius(10px)
+}
+.local_imagen4{
+    @include radius(10px)
+}
+.local_imagen5{
+    @include radius(10px)
+}
+.local_imagen6{
+    @include radius(10px)
+}

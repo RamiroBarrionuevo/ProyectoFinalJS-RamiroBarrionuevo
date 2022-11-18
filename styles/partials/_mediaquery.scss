@@ -1,0 +1,110 @@
+@media screen and ( max-width: 480px) {
+.contenedor{
+        display: flex;
+        flex-direction: column;
+        .caja4{
+            .pie-pagina{
+                .grupo-1{
+                    width: 90%;
+                    grid-template-columns: repeat(1, 1fr);
+                    grid-gap: 30px;
+                    padding: 35px 0px;
+                }
+            }
+        }
+        .caja1{
+            margin-top: 10px;
+        }
+        .caja2{
+            margin-top: 0px;
+            .video{
+                width: 100%;  
+            }
+            p{
+                margin-right: 0px;
+            }
+        }
+        .caja3{
+            
+            width: 95%;
+            .cartas{
+                flex-direction: column;
+                
+                .cartitas{
+                    width: 75vw;
+                    height: 70vh;
+                    
+                    .flip{
+                        .flip__back{
+                            p{
+                                width: 75vw;
+                                height: 70vh;
+                            }
+                        }
+                    }
+                    
+                }
+            }
+            
+        }
+    }
+.contenedor3{
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    .local1{
+        h1{
+            text-align: center; 
+        }
+    }
+    .local2{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .local__imagen1,.local__imagen2,.local__imagen3{
+            margin-bottom: 80px;
+        }
+    }
+    .local3{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .local__imagen4,.local__imagen5,.local__imagen6{
+            margin-bottom: 80px;
+        }
+    }
+    .local4{
+        .pie-pagina{
+            .grupo-1{
+                width: 90%;
+                grid-template-columns: repeat(1, 1fr);
+                grid-gap: 30px;
+                padding: 35px 0px;
+            }
+        }
+    }
+}
+.pie-pagina{
+    .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
+}
+main{
+    form{
+        .infomensaje{
+            textarea{
+                width: 400px;
+            }
+        }
+    }
+}
+.carrito{
+    .contenedor{
+    display: contents;
+    align-items: center;
+    text-align: center;}
+}
+}

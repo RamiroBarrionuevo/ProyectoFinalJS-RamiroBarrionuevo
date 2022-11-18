@@ -1,0 +1,70 @@
+header{
+    font-size: 20px;
+    .navbar-dark {
+        --bs-navbar-color: rgb(255, 255, 255);
+        --bs-navbar-hover-color: rgba(0, 0, 0, 0.75);
+        --bs-navbar-active-color: rgb(0, 0, 0);
+        box-shadow: rgba(163, 133, 87, 0.25) 0px 30px 60px -12px inset,
+                    rgba(90, 90, 90, 0.3) 0px 18px 36px -18px inset;
+    }
+}
+
+.card{
+    margin-bottom: 50px;
+    .card-img{
+        border-radius: 10px;
+        
+        
+
+    }
+    background-color: rgb(255, 195, 146);
+    border-radius: 5px;
+    text-align: center;
+    .btn-primary {
+        --bs-btn-color: #fff;
+        --bs-btn-bg:  rgb(245, 159, 89);
+        --bs-btn-border-color: #00000000;
+        --bs-btn-hover-color: #fff;
+        --bs-btn-hover-bg: rgb(245, 159, 89);
+        --bs-btn-hover-border-color: #00000000; }
+    }
+    .imagen{
+        max-width:100%;
+    }
+    
+    a{
+        cursor:pointer;
+    }
+    .alerta{
+        font-weight:700;
+    }
+    body{
+        
+        overflow-x: hidden;
+    }
+    .modal-contenedor{
+        display:flex;
+        align-items: center;
+        gap:2rem;
+    }
+    .img-carrito{
+        width:200px;
+        padding:20px;
+    } 
+    .modal-content{
+        background-color: #f0ac5f;
+    }
+    .parrafo{
+        font-weight: 900;
+        font-style: italic;
+    }
+    #precioTotal{
+        margin:0;
+        padding:0;
+    }
+    a{
+        text-decoration: none;
+    }
+    .boton{
+        opacity:0;
+    }
